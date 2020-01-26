@@ -13,7 +13,6 @@ Starter Chest:
 ### Used Datapacks
 
  - Craftable Elytra: [https://www.planetminecraft.com/data-pack/craftable-elytra-datapack-1-13/](https://www.planetminecraft.com/data-pack/craftable-elytra-datapack-1-13/)
- - Leaf Decay: https://www.curseforge.com/minecraft/mc-mods/leaf-decay
  - VanillaTweaks: [https://vanillatweaks.net/](https://vanillatweaks.net/)
 	 - Coordinates Hud
 	 - Double Shulker Shells
@@ -27,5 +26,6 @@ Starter Chest:
 		 - Universal Dyeing
 		 - Uncraftable Ice
 		 - Craftable 
-
+### Used Fabric Mods
+ - Leaf Decay: https://www.curseforge.com/minecraft/mc-mods/leaf-decay
 
