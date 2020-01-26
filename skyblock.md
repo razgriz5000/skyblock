@@ -1,8 +1,8 @@
 ## **Skyblock**
 
-ilmango skyblock series: https://www.youtube.com/playlist?list=PLnC1rWWvOq51MdjMhTiakrX3-wFkKfVwp
-ilmango skyblock setup: https://www.youtube.com/watch?v=J5NBQ36XkZo&list=PLnC1rWWvOq51MdjMhTiakrX3-wFkKfVwp&index=4&t=0s
-DrTrog skyblock map: https://www.planetminecraft.com/project/skyblock-4/
+- ilmango skyblock series: https://www.youtube.com/playlist?list=PLnC1rWWvOq51MdjMhTiakrX3-wFkKfVwp
+- ilmango skyblock setup: https://www.youtube.com/watch?v=J5NBQ36XkZo&list=PLnC1rWWvOq51MdjMhTiakrX3-wFkKfVwp&index=4&t=0s
+- DrTrog skyblock map: https://www.planetminecraft.com/project/skyblock-4/
 
 Seed: 7911508363305478340
 Starter Chest:
