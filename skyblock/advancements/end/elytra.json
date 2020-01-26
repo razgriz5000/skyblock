@@ -1,0 +1,18 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:elytra"},
+        "title": {"translate": "Sky's the Limit"},
+        "description": {"translate": "Find an Elytra."},
+        "frame": "goal"
+    },
+    "parent": "skyblock:end/find_end_city",
+    "criteria":
+    {
+        "elytra":
+	{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items": [{"item": "minecraft:elytra"}]}
+        }
+    }
+}

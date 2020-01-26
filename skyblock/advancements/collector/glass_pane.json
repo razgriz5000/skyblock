@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:glass_pane"},
+        "title": {"translate": "Pane Collector"},
+        "description": {"translate": "Craft 16 glass panes."}
+    },
+    "parent": "skyblock:collector/sand",
+    "criteria":
+    {
+        "glass_pane":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:glass_pane","count": 16}]}
+	}
+    }
+}

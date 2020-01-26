@@ -1,0 +1,18 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:end_crystal"},
+        "title": {"translate": "The End... Agin..."},
+        "description": {"translate": "Respawn the Ender Dragon."},
+        "frame": "goal"
+    },
+    "parent": "skyblock:end/kill_dragon",
+    "criteria":
+    {
+        "summoned_dragon":
+        {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {"entity": {"type": "ender_dragon"}}
+        }
+    }
+}

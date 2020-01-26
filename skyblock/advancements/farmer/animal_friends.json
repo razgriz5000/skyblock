@@ -1,0 +1,14 @@
+{
+    "display":
+    {
+        "icon":{"item": "minecraft:leather"},
+        "title": {"translate": "Animal Friends"},
+        "description": {"translate": "Spawn and Breed animals so you aren't as lonely."},
+        "frame": "goal"
+    },
+    "parent": "skyblock:farmer/wheat",
+    "criteria":
+    {
+        "breed": {"trigger": "minecraft:bred_animals"}
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:ender_pearl"},
+        "title": {"translate": "Pearl Collector"},
+        "description": {"translate": "Get 16 ender pearls."}
+    },
+    "parent": "skyblock:collector/root",
+    "criteria":
+    {
+        "ender_pearl":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:ender_pearl","count": 16}]}
+        }
+    }
+}

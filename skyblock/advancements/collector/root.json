@@ -1,0 +1,22 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:emerald"},
+        "title": {"translate": "Collector"},
+        "description": {"translate": "Collect as many items as you can."},
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png","show_toast": false,"announce_to_chat": false
+    },
+    "criteria":
+    {
+        "dirt":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:dirt"}]}
+        },
+        "log":
+        {
+            "trigger": "minecraft:inventory_changed",
+	    "conditions" : {"items": [{"item": "minecraft:oak_log"}]}}
+        },
+        "requirements": [["dirt","log"]]
+}

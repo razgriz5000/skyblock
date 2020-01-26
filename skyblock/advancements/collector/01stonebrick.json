@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:stone_bricks"},
+        "title": {"translate": "Stone Brick Collector"},
+        "description": {"translate": "Craft 64 stone bricks."}
+    },
+    "parent": "skyblock:collector/03cobblestone",
+    "criteria":
+    {
+        "stonebrick":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:stone_bricks","count": 64}]}
+        }
+    }
+}
