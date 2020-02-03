@@ -6,7 +6,7 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "vanilla:entities/husk"
+            "name": "vanilla:entities/enderman"
           }
         ]
       },
@@ -32,9 +32,9 @@
                 }
               }
             ],
-            "name": "minecraft:sand"
+            "name": "minecraft:end_stone"
           }
-        ]
+          ]
       }
     ]
   }

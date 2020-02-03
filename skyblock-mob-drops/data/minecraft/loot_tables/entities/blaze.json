@@ -14,16 +14,25 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "name": "minecraft:quartz",
-          "weight": 1
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "random_chance_with_looting",
-          "chance": 0.6,
-          "looting_multiplier": 0.3
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 1.0,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              }
+            }
+          ],
+          "name": "minecraft:quartz"
         }
       ]
     }
