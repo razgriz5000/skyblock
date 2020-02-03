@@ -1,0 +1,19 @@
+{
+    "display":
+    {
+        "icon":{"item": "minecraft:wheat"},
+        "title": {"translate": "Farmer"},
+        "description": {"translate": "Well how else are you going to eat?"},
+        "background": "minecraft:textures/block/hay_block_side.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria":
+    {
+        "pumpkin_seeds":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items":[{"item": "minecraft:pumpkin_seeds"}]}
+        }
+    }
+}

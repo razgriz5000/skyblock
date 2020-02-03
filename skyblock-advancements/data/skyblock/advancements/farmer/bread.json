@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:bread"},
+        "title": {"translate": "Baker"},
+        "description": {"translate": "Bake 10 bread."}
+    },
+    "parent": "skyblock:farmer/wheat",
+    "criteria":
+    {
+        "bread":
+        {
+	    "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:bread","count": 10}]}
+        }
+    }
+}

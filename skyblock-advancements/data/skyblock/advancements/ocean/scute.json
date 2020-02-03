@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:scute"},
+        "title": {"translate": "Scute Scute!"},
+        "description": {"translate": "Watch a turtle grow up and collect it's Scute."}
+    },
+    "parent": "skyblock:ocean/turtle_bread",
+    "criteria":
+    {
+        "gravel":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:scute"}]}
+        }
+    }
+}

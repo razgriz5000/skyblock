@@ -1,0 +1,18 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:honey_block"},
+        "title": {"translate": "Stickier than Slime?"},
+        "description": {"translate": "Get a stack of honey blocks."},
+	 "frame": "challenge"
+    },
+    "parent": "skyblock:farmer/harvest_honey",
+    "criteria":
+    {
+        "pickel":
+        {
+	    "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:honey_block","count": 64}]}
+        }
+    }
+}

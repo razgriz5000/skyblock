@@ -1,0 +1,25 @@
+﻿{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#P#",
+        "#E#",
+        "N N"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_wool"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+		"item": "minecraft:elytra"
+	}
+}

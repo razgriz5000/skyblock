@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:bow"},
+        "title": {"translate": "Take Aim"},
+        "description": {"translate": "Shoot something with a bow and arrow."}
+    },
+    "parent": "skyblock:skyblock/01fake_cave",
+    "criteria":
+    {
+        "shot_arrow":
+        {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {"damage": {"type": {"is_projectile": true,"direct_entity": {"type": "minecraft:arrow"}}}}
+        }
+    }
+}

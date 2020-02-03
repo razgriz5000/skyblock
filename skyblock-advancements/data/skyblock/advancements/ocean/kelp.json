@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:kelp"},
+        "title": {"translate": "Krazy Kelp"},
+        "description": {"translate": "Craft some kelp using 4 Seagrass."}
+    },
+    "parent": "skyblock:ocean/seagrass",
+    "criteria":
+    {
+        "kelp":
+        {
+	    "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:kelp","count": 1}]}
+        }
+    }
+}

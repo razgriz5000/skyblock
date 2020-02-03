@@ -1,0 +1,18 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:emerald_block"},
+        "title": {"translate": "Trade Master"},
+        "description": {"translate": "Get a stack of Emerald Blocks!"},
+        "frame": "challenge"
+    },
+    "parent": "skyblock:skyblock/the_cure",
+    "criteria":
+    {
+        "emerald":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:emerald_block", "count": 64}]}
+        }
+    }
+}

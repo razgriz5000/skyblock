@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:quartz"},
+        "title": {"translate": "Hot Crystals"},
+        "description": {"translate": "Collect a piece of quartz form a Blaze."}
+    },
+    "parent": "skyblock:nether/blaze_rod",
+    "criteria":
+    {
+        "redstone":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions" : {"items": [{"item": "minecraft:quartz"}]}
+        }
+    }
+}

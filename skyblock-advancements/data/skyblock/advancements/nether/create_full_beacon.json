@@ -1,0 +1,18 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:beacon"},
+        "title": {"translate": "Beaconator"},
+        "description": {"translate": "Make a level 4 beacon."},
+        "frame": "goal"
+    },
+    "parent": "skyblock:nether/create_beacon",
+    "criteria":
+    {
+        "beacon":
+        {
+            "trigger": "minecraft:construct_beacon",
+            "conditions":{"level": 4}
+        }
+    }
+}

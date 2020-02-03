@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:prismarine_bricks"},
+        "title": {"translate":"Monument"},
+        "description": {"translate":"Find the Ocean Monument inside the world boarder."}
+    },
+    "parent": "skyblock:ocean/root",	
+    "criteria":
+    {
+        "monument":
+	{
+            "trigger": "minecraft:location",
+            "conditions": {"feature": "monument"}
+        }
+    }
+}

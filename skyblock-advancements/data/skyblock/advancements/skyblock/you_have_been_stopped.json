@@ -1,0 +1,17 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:shield"},
+        "title": {"translate": "You Have Been Stopped"},
+        "description": {"translate": "Deflect an arrow with a shield."}
+    },
+    "parent": "skyblock:skyblock/01fake_cave",
+    "criteria":
+    {
+        "deflected_projectile":
+        {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {"damage": {"type": {"is_projectile": true},"blocked": true}}
+        }
+    }
+}

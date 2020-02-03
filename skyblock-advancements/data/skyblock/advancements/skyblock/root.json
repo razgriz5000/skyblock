@@ -1,0 +1,19 @@
+{
+    "display":
+    {
+        "icon":{"item": "minecraft:grass_block"},
+        "title": {"translate": "Skyblock"},
+        "description": {"translate": "An island in the void."},
+        "background": "minecraft:textures/block/snow.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria":
+    {
+        "dirt":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {"items":[{"item": "minecraft:dirt"}]}
+        }
+    }
+}

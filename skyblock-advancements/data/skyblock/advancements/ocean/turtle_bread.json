@@ -1,0 +1,26 @@
+{
+	"parent": "skyblock:ocean/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:turtle_egg"
+		},
+		"title": {
+			"translate": "Turtle Party"
+		},
+		"description": {
+			"translate": "Find a beach biome and breed some turtles."
+		},
+		"frame": "goal"
+	},
+
+	"criteria": {
+		"minecraft:turtle": {
+			"trigger": "minecraft:bred_animals",
+			"conditions": {
+				"parent": {
+					"type": "minecraft:turtle"
+				}
+			}
+		}
+	}
+}

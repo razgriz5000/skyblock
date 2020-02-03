@@ -1,0 +1,19 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:red_nether_bricks"},
+        "title": {"translate": "Nether"},
+        "description": {"translate": "Welcome to The Underworld."},
+        "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria":
+    {
+        "nether":
+        {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {"to": "the_nether", "from": "overworld"}
+        }
+    }
+}

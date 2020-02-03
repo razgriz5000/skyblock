@@ -1,0 +1,21 @@
+{
+    "display":
+    {
+        "icon":
+	{
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {"translate":"Evoker"},
+        "description": {"translate":"Kill an Evoker"},
+        "frame": "goal"
+    },
+    "parent": "skyblock:skyblock/the_mansion",	
+    "criteria":
+    {
+        "evocation_illager":
+	{
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {"entity": {"type": "evoker"}}
+        }
+    }
+}

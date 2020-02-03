@@ -1,0 +1,22 @@
+{
+    "display":
+    {
+        "icon": {"item": "minecraft:arrow"},
+        "title": {"translate": "Sniper Dule"},
+        "description": {"translate": "Kill a Skeleton with an arrow from more than 50 meters away."},
+        "frame": "challenge"
+    },
+    "parent": "skyblock:skyblock/shoot_arrow",
+    "criteria":
+    {
+        "killed_skeleton":
+        {
+            "trigger": "minecraft:player_killed_entity",
+	    "conditions":
+            {
+                "killing_blow": {"is_projectile": true},
+                "entity": {"type": "skeleton","distance": {"horizontal": {"min": 50}}}
+            }
+        }
+    }
+}

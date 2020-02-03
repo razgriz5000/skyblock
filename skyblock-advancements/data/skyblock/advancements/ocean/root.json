@@ -1,0 +1,21 @@
+{
+    "display":
+    {
+        "icon":{"item": "minecraft:sea_lantern"},
+        "title": {"translate": "Ocean"},
+        "description": {"translate": "Wait what ocean?"},
+        "background": "minecraft:textures/block/dark_prismarine.png",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria":
+    {
+         "Kill a Drowned":
+        {
+            "trigger": "minecraft:player_killed_entity",
+			"conditions":{
+			 "entity": {"type": "minecraft:drowned"}
+						}
+		}
+    }
+}
