@@ -3,7 +3,11 @@
     {
         "icon": {"item": "minecraft:sugar_cane"},
         "title": {"translate": "Need a Cane?"},
-        "description": {"translate": "Farm a stack of sugar cane."}
+        "description": {"translate": "Farm a stack of sugar cane."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:farmer/root",
     "criteria":

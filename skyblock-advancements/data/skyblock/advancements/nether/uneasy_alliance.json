@@ -4,9 +4,12 @@
         "icon": {"item": "minecraft:ghast_tear"},
         "title": {"translate": "Uneasy Alliance"},
         "description": {"translate": "Bring a Ghast to the Overworld... and then kill it."},
-        "frame": "challenge"
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:nether/return_to_sender",
+    "parent": "skyblock:nether/09return_to_sender",
     "criteria":
     {
         "killed_ghast":

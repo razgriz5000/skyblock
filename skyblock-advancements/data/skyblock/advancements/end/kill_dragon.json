@@ -4,7 +4,11 @@
     {
         "icon": {"item": "minecraft:dragon_head"},
         "title": {"translate": "Free the End"},
-        "description": {"translate": "Good luck."}
+        "description": {"translate": "Good luck."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:end/root",
     "criteria":

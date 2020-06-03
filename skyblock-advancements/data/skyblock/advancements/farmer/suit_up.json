@@ -8,7 +8,11 @@
 		},
 		"description": {
 			"translate": "Make a full set of leather armor."
-		}
+		},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
 	},
 	"parent": "skyblock:farmer/animal_friends",
 	"criteria": {

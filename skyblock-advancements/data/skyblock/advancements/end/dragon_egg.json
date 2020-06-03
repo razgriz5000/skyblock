@@ -4,7 +4,10 @@
         "icon": {"item": "minecraft:dragon_egg"},
         "title": {"translate": "The Next Generation"},
         "description": {"translate": "Hold the Dragon Egg."},
-        "frame": "goal"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:end/kill_dragon",
     "criteria":

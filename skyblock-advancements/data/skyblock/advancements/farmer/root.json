@@ -5,8 +5,10 @@
         "title": {"translate": "Farmer"},
         "description": {"translate": "Well how else are you going to eat?"},
         "background": "minecraft:textures/block/hay_block_side.png",
-        "show_toast": true,
-        "announce_to_chat": false
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "criteria":
     {

@@ -5,7 +5,10 @@
 	"icon": {"item": "minecraft:trident"},
 	"title": {"translate": "Trident Toss"},
 	"description": {"translate": "Throw a trident."},
-	"frame":"goal"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "criteria":
     {

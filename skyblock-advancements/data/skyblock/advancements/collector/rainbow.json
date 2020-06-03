@@ -4,9 +4,12 @@
         "icon": {"item": "minecraft:cyan_concrete"},
         "title": {"translate": "Taste the Rainbow"},
         "description": {"translate": "Make every color of wool, concrete, and terracotta."},
-	"frame": "challenge"
+	"frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:collector/dye",
+    "parent": "skyblock:collector/1dye",
     "criteria":
     {
         "wool0":

@@ -4,9 +4,12 @@
         "icon": {"item": "minecraft:creeper_head"},
         "title": {"translate": "Head Hunter"},
         "description": {"translate": "Obtain every head in the game."},
-	"frame":"challenge"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:ocean/throw_trident",
+    "parent": "skyblock:ocean/lightning_creeper",
     "criteria":
     {
         "wither_skull":

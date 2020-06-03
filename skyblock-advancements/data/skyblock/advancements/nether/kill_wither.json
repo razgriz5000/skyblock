@@ -4,9 +4,12 @@
         "icon": {"item": "minecraft:nether_star"},
         "title": {"translate": "Withering Heights"},
         "description": {"translate": "Summon and defeat the Wither."},
-        "frame": "challenge"
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:nether/wither_skull",
+    "parent": "skyblock:nether/02wither_skull",
     "criteria":
     {
         "wither":

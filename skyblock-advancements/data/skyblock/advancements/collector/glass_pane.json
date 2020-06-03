@@ -3,9 +3,13 @@
     {
         "icon": {"item": "minecraft:glass_pane"},
         "title": {"translate": "Pane Collector"},
-        "description": {"translate": "Craft 16 glass panes."}
+        "description": {"translate": "Craft 16 glass panes."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:collector/sand",
+    "parent": "skyblock:collector/5sand",
     "criteria":
     {
         "glass_pane":

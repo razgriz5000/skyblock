@@ -2,11 +2,14 @@
     "display":
     {
         "icon": {"item": "minecraft:end_crystal"},
-        "title": {"translate": "The End... Agin..."},
+        "title": {"translate": "The End... Again..."},
         "description": {"translate": "Respawn the Ender Dragon."},
-        "frame": "goal"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:end/kill_dragon",
+    "parent": "skyblock:end/root",
     "criteria":
     {
         "summoned_dragon":

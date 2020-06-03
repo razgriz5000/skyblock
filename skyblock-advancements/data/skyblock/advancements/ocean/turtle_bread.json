@@ -10,7 +10,10 @@
 		"description": {
 			"translate": "Find a beach biome and breed some turtles."
 		},
-		"frame": "goal"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
 	},
 
 	"criteria": {

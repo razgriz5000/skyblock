@@ -3,7 +3,11 @@
     {
         "icon": {"item": "minecraft:wheat_seeds"},
         "title": {"translate":"A Seedy Place"},
-        "description": {"translate":"Plant a seed and watch it grow."}
+        "description": {"translate":"Plant a seed and watch it grow."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:farmer/root",
     "criteria":

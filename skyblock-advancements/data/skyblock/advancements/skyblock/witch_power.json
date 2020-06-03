@@ -8,9 +8,13 @@
 		},
 		"description": {
 			"translate": "Get redstone dust by killing a witch."
-		}
+		},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
 	},
-	"parent": "skyblock:skyblock/01fake_cave",
+	"parent": "skyblock:skyblock/04fake_cave",
 	"criteria": {
 		"entity_witch": {
 			"trigger": "minecraft:player_killed_entity",

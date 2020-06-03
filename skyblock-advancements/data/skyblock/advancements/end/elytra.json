@@ -4,7 +4,10 @@
         "icon": {"item": "minecraft:elytra"},
         "title": {"translate": "Sky's the Limit"},
         "description": {"translate": "Find an Elytra."},
-        "frame": "goal"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:end/find_end_city",
     "criteria":

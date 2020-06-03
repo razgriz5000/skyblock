@@ -3,7 +3,11 @@
     {
         "icon": {"item": "minecraft:wheat"},
         "title": {"translate": "Wheat Farmer"},
-        "description": {"translate": "Grow a stack of wheat to craft bread or bread animals."}
+        "description": {"translate": "Grow a stack of wheat to craft bread or bread animals."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:farmer/seedy_place",
     "criteria":

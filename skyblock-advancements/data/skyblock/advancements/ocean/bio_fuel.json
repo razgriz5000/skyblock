@@ -4,7 +4,10 @@
         "icon": {"item": "minecraft:dried_kelp_block"},
         "title": {"translate": "Bio Fuel"},
         "description": {"translate": "Make 64 Dried Kelp Blocks."},
-	"frame":"challenge"
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:ocean/kelp",
     "criteria":

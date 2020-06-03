@@ -3,7 +3,11 @@
     {
         "icon": {"item": "minecraft:bamboo"},
         "title": {"translate": "Bamboo"},
-        "description": {"translate": "Get a stack of bamboo."}
+        "description": {"translate": "Get a stack of bamboo."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:farmer/root",
     "criteria":

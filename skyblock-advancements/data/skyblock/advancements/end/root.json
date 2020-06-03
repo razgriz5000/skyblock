@@ -5,15 +5,13 @@
         "title": {"translate": "The End"},
         "description": {"translate": "Or the beginning?"},
         "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
-        "show_toast": false,
-        "announce_to_chat": false
+        "show_toast": true,
+        "announce_to_chat": false,
+		"hidden": false
     },
-    "criteria":
-    {
-        "entered_end":
-        {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {"to": "the_end"}
-        }
+    "criteria": {
+    "never": {
+      "trigger": "impossible"
     }
+  }
 }

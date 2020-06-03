@@ -4,9 +4,12 @@
         "icon": {"item": "minecraft:oak_sapling"},
         "title": {"translate": "All Saplings"},
         "description": {"translate": "Collect every type of sapling."},
-        "frame": "goal"
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:skyblock/regrowth",
+    "parent": "skyblock:skyblock/02regrowth",
     "criteria":
     {
         "oak":

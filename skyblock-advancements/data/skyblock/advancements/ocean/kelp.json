@@ -3,7 +3,11 @@
     {
         "icon": {"item": "minecraft:kelp"},
         "title": {"translate": "Krazy Kelp"},
-        "description": {"translate": "Craft some kelp using 4 Seagrass."}
+        "description": {"translate": "Craft some kelp using 4 Seagrass."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
     "parent": "skyblock:ocean/seagrass",
     "criteria":

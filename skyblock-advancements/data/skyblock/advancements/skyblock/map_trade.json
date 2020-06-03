@@ -13,5 +13,13 @@
             "trigger": "minecraft:villager_trade",
 	    "conditions": {"item": {"item": "minecraft:filled_map"}}
 	}
-    }
+    },
+  "requirements": [
+    [
+      "trade"
+    ]
+  ],
+	"rewards": {
+		"function": "skyblock:open_ocean"
+	}
 }

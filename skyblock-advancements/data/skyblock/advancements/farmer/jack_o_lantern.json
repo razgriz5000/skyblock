@@ -3,9 +3,13 @@
     {
         "icon": {"item": "minecraft:jack_o_lantern"},
         "title": {"translate": "Halloween!"},
-        "description": {"translate": "Carve and craft 64 Jack o'Lanterns."}
+        "description": {"translate": "Carve and craft 64 Jack o'Lanterns."},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
     },
-    "parent": "skyblock:farmer/pumpkin",
+    "parent": "skyblock:farmer/02pumpkin",
     "criteria":
     {
         "jack_o_lantern":
