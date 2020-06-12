@@ -35,32 +35,6 @@
 			"looting_multiplier": 0.001
 		  }
 		]
-	  },
-	  {
-		"rolls": 1,
-		"entries": [
-		  {
-			"type": "minecraft:item",
-			"functions": [
-			  {
-				"function": "minecraft:set_count",
-				"count": {
-				  "min": 1.0,
-				  "max": 4.0,
-				  "type": "minecraft:uniform"
-				}
-			  },
-			  {
-				"function": "minecraft:looting_enchant",
-				"count": {
-				  "min": 1.0,
-				  "max": 4.0
-				}
-			  }
-			],
-			"name": "minecraft:blackstone"
-		  }
-		]
 	  }
 	]
   }
