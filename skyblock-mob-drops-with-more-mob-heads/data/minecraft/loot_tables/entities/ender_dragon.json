@@ -18,6 +18,16 @@
                 "name": "minecraft:entities/reference/mmh/ender_dragon"
             }
         ]
-    }
+    },
+    {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "item",
+			"name": "minecraft:ancient_debris",
+			"weight": 1
+		  }
+		]
+	  }
   ]
 }

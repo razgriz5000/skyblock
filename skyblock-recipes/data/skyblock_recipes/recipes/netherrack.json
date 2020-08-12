@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C",
+        "C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_wart_block"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherrack",
+        "count": 4
+    }
+}
