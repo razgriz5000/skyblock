@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Lit It Up",
+            "color": "red"
+        },
+        "description": {
+            "text": "Craft a Furnace",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "furnace": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:furnace",
+                "item": {
+                    "item": "minecraft:furnace"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "furnace"
+        ]
+    },
+    "parent": "skyblock:cobblestone"
+}

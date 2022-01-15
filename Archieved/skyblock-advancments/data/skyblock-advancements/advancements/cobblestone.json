@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cobblestone Generator",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Make a cobblestone generator with water and lava.",
+            "color": "gray"
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "skyblock:root"
+}

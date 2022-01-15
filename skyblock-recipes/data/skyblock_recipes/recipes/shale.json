@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C",
+        "C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:calcite"
+        },
+        "C": {
+            "item": "minecraft:clay"
+        }
+    },
+    "result": {
+        "item": "quark:shale",
+        "count": 4
+    }
+}

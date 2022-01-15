@@ -1,0 +1,30 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Advancement"
+        },
+        "description": {
+            "text": "Description"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/grass.png"
+    },
+    "criteria": {
+        "Start": {
+            "trigger": "minecraft:slide_down_block",
+            "conditions": {
+                "block": "minecraft:air"
+            }
+        }
+    },
+    "rewards": {
+        "function": "skyblock-structures:generation"
+    }
+}

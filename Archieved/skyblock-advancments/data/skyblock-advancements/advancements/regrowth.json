@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Regrowth",
+            "color": "green",
+            "bold": false,
+            "underlined": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Collect a sapling or it's over!",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sapling": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:oak_sapling"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "regrowth"
+        ]
+    },
+    "parent": "skyblock:root"
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#T",
+        "T#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:calcite"
+        },
+        "T": {
+            "item": "minecraft:tuff"
+        }
+    },
+    "result": {
+        "item": "quark:limestone",
+        "count": 4
+    }
+}

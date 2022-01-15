@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "item": "quark:myalite"
+    },
+    "result": "quark:dusky_myalite",
+    "experience": 0.1,
+    "cookingtime": 100
+}

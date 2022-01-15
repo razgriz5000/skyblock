@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "minecraft:granite"
+    },
+    "result": "quark:jasper",
+    "experience": 0.1,
+    "cookingtime": 100
+}
